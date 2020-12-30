@@ -1,6 +1,10 @@
-# galactic
+# Galactic
 
-Una explicación de la funcionalidad de cada método de la clase _Mercader_
+* La parte 1 se encuentra en [Part I](https://github.com/jnhasard/galactic/tree/main/Part%20I)
+* La parte 2 se encuentra [aquí](https://galactic-salesman.herokuapp.com)
+___
+
+Una breve explicación de la funcionalidad de cada método de la clase _Mercader_
 
 ___
 
