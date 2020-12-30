@@ -10,19 +10,46 @@
     />
   </head>
   <body>
-    <div class="container">
-      <h1 class="title">Mercader Galáctico</h1>
+    <div class="container column">
+      <h1 class="title">Galactic Salesman</h1>
       <p>
         By adding your notes to this space you'll be able to answer all your
         galactic questions about Credits
       </p>
+      <hr />
+      <p class="left">Your notes must be in one of the following formats:</p>
+      <ul class="left">
+        <li>
+          <b><i>X</i> is <i>Y</i></b
+          >: where <i>X</i> is a galactic measure and <i>Y</i> is a Roman number
+        </li>
+        <li>
+          <b><i>X Y</i> is <i>Z</i> Credits</b>: where <i>X</i> is a galactic
+          amount, <i>Y</i> is a type of Credit and <i>Z</i> is the amount of
+          Credit
+        </li>
+      </ul>
+      <p class="left">Your questions must be in one of the following formats</p>
+      <ul class="left">
+        <li>
+          <b>How much is <i>X</i> ?</b>: where <i>X</i> is a galactic amount
+        </li>
+        <li>
+          <b>How many Credits is <i>X Y</i></b
+          >: where <i>X</i> is a galactic amount and <i>Y</i> is a type of
+          Credit
+        </li>
+      </ul>
+      <hr />
       <p>Go ahead and try!</p>
       <form method="post">
         {% csrf_token %} {{form}}
         <input class="submit-button" type="submit" value="Add Notes" />
       </form>
     </div>
-    <div class="container">
+    <div class="container column">
+      <h1>Results</h1>
+      <hr />
       {%for i in txt%}
       <p>{{i}}</p>
       {% endfor %}
