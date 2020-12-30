@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .forms import MyForm
 from django.template import loader
 from django.http import HttpResponse
-from .static.merc import Mercader
+from .static.py.merc import Mercader
 
 # Create your views here.
 

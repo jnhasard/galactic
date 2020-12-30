@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f9dcc6;
+  background-color: black;
+}
+
+textarea {
+  width: 90%;
+}
+
+.container {
+  background-color: #124e59;
+  padding: 15px;
+  text-align: center;
+  float: left;
+  width: 40%;
+  margin: 3%;
+  height: 90vh;
+}
+
+.title {
+  font-size: 35px;
+  text-align: center;
+}
+
+.submit-button {
+  width: 35%;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.left {
+  text-align: left;
+}
