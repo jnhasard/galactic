@@ -4,18 +4,22 @@ body {
   background-color: black;
 }
 
+textarea {
+  width: 90%;
+}
+
 .container {
   background-color: #124e59;
   padding: 15px;
   text-align: center;
   float: left;
   width: 40%;
-  margin: 4%;
-  height: 85vh;
+  margin: 3%;
+  height: 90vh;
 }
 
 .title {
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
 }
 
