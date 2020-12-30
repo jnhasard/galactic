@@ -122,7 +122,6 @@ USE_TZ = True
 PROJECT_ROOT = os.path.join(os.path.abspath(os.getcwd()))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'fingo/static')
 STATIC_URL = '/fingo/static/'
-print('=========================\n', STATIC_ROOT)
 
 # Extra lookup directories for collectstatic to find static files
 STATICFILES_DIRS = (

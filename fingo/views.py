@@ -15,7 +15,6 @@ def index(request):
         if myForm.is_valid():
             mercader = Mercader()
             info = myForm.cleaned_data['info'].split('\n')
-            print(info)
             txt = []
             for i in info:
                 txt.append(str(mercader.instruction_decoder(i)) + '\n')

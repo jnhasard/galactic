@@ -6,6 +6,7 @@ body {
 
 textarea {
   width: 90%;
+  height: 10em;
 }
 
 .container {
@@ -16,6 +17,7 @@ textarea {
   width: 40%;
   margin: 3%;
   height: 90vh;
+  overflow: scroll;
 }
 
 .title {
